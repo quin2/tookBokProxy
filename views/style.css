@@ -1,0 +1,65 @@
+.booky {
+  font-family: "Georgia", serif;
+  line-height: 1.5;
+  font-size: 1.5em;
+  
+  color: #444444; /* dark gray text */
+  max-width: 800px;
+  margin-left: auto;
+  margin-right: auto;
+
+  margin-top: 80px;
+  margin-bottom: 80px;
+
+  white-space: pre-wrap;
+}
+
+.title {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: white;
+  text-align: center;
+  font-size: 1.75em;
+  color: blue;
+  font-family: "Comic Sans MS", sans-serif;
+  padding: 0.25em;
+  
+}
+
+.bholder {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  background-color: white;
+  padding: 0.25em;
+
+  font-size: 1.25em;
+
+  text-align: center;
+}
+
+button {
+  border: none;
+  padding: 0.25em;
+  margin: 0;
+  text-decoration: none;
+  font-size: inherit;
+
+  background-color: blue;
+  color: white;
+
+  font-family: "Comic Sans MS", sans-serif;
+
+  font-size: 1.25em;
+
+  border-radius: 10px;
+}
+
+html {
+  background-color: #F5F5F5;
+
+  font-size: 16px;
+}

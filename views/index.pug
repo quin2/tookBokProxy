@@ -1,0 +1,10 @@
+html
+  head
+    title tookbok
+    style
+      include ./style.css
+  body
+    div(class='title') tookbok
+    div(class='booky')= book
+    div(class='bHolder')
+      button(type='button', class='refresh', onClick='window.location.reload();') Random
